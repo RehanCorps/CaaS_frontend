@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REHNOVA | SaaS Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sansation&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- nav------ -->
+  <nav>
+    <div class="nav__logo">
+      <div class="img">
+        <img src="images/nav logo.png" alt="">
+      </div>
+    </div>
+    <ul class="nav__list" id="nav-list">
+      <li><a href="#home" class="nav__link">Home</a></li>
+      <li class="dropdown">
+        <a href="#education" class="nav__link dropdown-arrow">Fetaures</a>
+      </li>
+      <li class="dropdown">
+        <a href="#services" class="nav__link dropdown-arrow">Pricing</a>
+       
+      </li>
+      <li class="dropdown">
+        <a href="#expertise" class="nav__link dropdown-arrow">Roadmap</a>
+       
+      </li>
+      <li class="dropdown">
+        <a href="#contact" class="nav__link dropdown-arrow">Contact</a>
+        <div class="dropdown-content">
+          <a href="#email">Email</a>
+          <a href="#linkedin">LinkedIn</a>
+          <a href="#form">Form</a>
+        </div>
+      </li>
+    </ul>
+    <div class="nav__toggle" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+  <!-- section for bg -->
+
+  <div class="bg-circle-1"></div>
+
+  <!-- Header----- -->
+  <header class="slide-in-bottom">
+
+
+    <h1>Convert faster. Support smarter. Win more - with<span
+        style="color: rgb(21, 165, 255); text-shadow: 2px 2px 2px white;"> AI Chatbots</span></h1>
+    <p>AI Chatbots can work like your best team member - <span style="font-weight: 700;">available 24/7</span>, never
+      miss a lead with<span style="font-weight: 700;"> ultra-high </span>satisfaction rates.</p>
+    <form class="email-form slide-in-bottom">
+      <input type="email" id="email" name="email" placeholder="Enter your Business E-mail" required />
+
+      <button type="submit">Sign up FREE!</button>
+    </form>
+    <div class="lines slide-in-left">
+      <f><i class="fas fa-check" style="font-family: inherit;">14 Days free trial</i></f>
+      <f><i class="fas fa-check" style="font-family: inherit;">No credit card needed</i></f>
+
+    </div>
+
+  </header>
+
+  <section class="gif slide-in-left">
+    <img src="Rehnova digitals.gif" alt="">
+
+  </section>
+  <div class="bg-circle-2"></div>
+
+  <section style="background-color: rgb(0, 0, 0);">
+    <div class="section" id="about">
+
+      <div class="card slide-in-right">
+        <img style="border: 2px solid white; padding: 1rem 1rem; border-radius: 40px; background-color: grey;"
+          src="images/card 1.png" alt="">
+        <div>
+          <h2>Support customers on multiple channels</h2>
+          <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <p>Add an AI chatbot to your website, LiveChat, Messenger, or Slack to handle all support cases
+              automatically,
+              24/7. </p>
+            <button type="submit">Sign up </button>
+          </div>
+
+        </div>
+      </div>
+      <div class="card-2 slide-in-left">
+        <img style="border: 2px solid white; padding: 1rem 1rem; border-radius: 40px; background-color: grey;"
+          src="images/card 2.png" alt="">
+        <div>
+
+          <h2>Show offers to boost sales</h2>
+          <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <p>Proactively reach website visitors with product recommendations to increase engagement and conversions.
+            </p>
+            <button type="submit">Sign up </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card-3 slide-in-right ">
+
+        <img style="border: 2px solid white; padding: 1rem 1rem; border-radius: 40px; background-color: grey;"
+          src="images/card 3.png" alt="">
+        <div>
+
+
+          <h2>Delievr on-point answers with AI automation</h2>
+          <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <p>Ensure continuous customer engagement and human-like support without expanding your team.</p>
+            <button type="submit">Sign up</button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="more slide-in-bottom ">
+    <img src="images/review.png" alt="">
+    <p>Chatbots are game changer for any business. Whether you wanna have better leads or engage the customers in the
+      best possible way, Chatbots are the best options one can have. I have gain much from it. When are you?</p>
+  </section>
+  <!-- Footer----- -->
+  <footer style="background-color: rgb(1, 8, 15);
+  color: grey;">
+    © 2025 REHNOVA. All rights reserved.
+  </footer>
+
+  <!-- Javascripts------ -->
+
+  <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const navList = document.getElementById('nav-list');
+    const dropdowns = document.querySelectorAll('.dropdown');
+
+    navToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+
+    dropdowns.forEach(drop => {
+      drop.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+          e.stopPropagation();
+          drop.classList.toggle('open');
+        }
+      });
+    });
+    // Intersection animations
+
+    const slideElements = document.querySelectorAll('.slide-in-left, .slide-in-bottom, .slide-in-right')
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // Stop observing after first visibility
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+    slideElements.forEach(el => observer.observe(el));
+
+  </script>
+
+</body>
+
+</html>
